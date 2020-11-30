@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Security.Cryptography;
-namespace ConexaoDLL.Regras
+namespace ConexaoDLL
 {
     public class RegraUsuario
     {
@@ -10,10 +10,10 @@ namespace ConexaoDLL.Regras
         private ValidadorUsuario _Validador;
         private readonly RepositorioUsuario _RepositorioUsuario;
 
-        public RegraUsuario(Conexao conexao)
+        public RegraUsuario()
         {
             this._Conexao = new Conexao();
-            this._RepositorioUsuario = new RepositorioUsuario(conexao);
+            this._RepositorioUsuario = new RepositorioUsuario(_Conexao);
             this._Validador = new ValidadorUsuario();
         }
 
@@ -27,6 +27,12 @@ namespace ConexaoDLL.Regras
         public DTO_Usuario Consultar(Usuario usuario)
         {
             return this._RepositorioUsuario.Consultar(usuario);
+        }
+        public Usuario Logar(Usuario usuario)
+        {
+            usuario.Senha = EncriptarSenha(usuario.Senha);
+
+            return this._RepositorioUsuario.Logar(usuario);
         }
         private string EncriptarSenha(string senha)
         {

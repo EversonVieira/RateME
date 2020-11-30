@@ -7,3 +7,12 @@ C:\Users\Evers\source\repos\ConexaoDLL\ConexaoDLL\bin\Debug\netcoreapp3.1\Conexa
 C:\Users\Evers\source\repos\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\ConexaoDLL.csproj.CoreCompileInputs.cache
 C:\Users\Evers\source\repos\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\ConexaoDLL.dll
 C:\Users\Evers\source\repos\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\ConexaoDLL.pdb
+C:\Users\Evers\Desktop\RateMe\ConexaoDLL\ConexaoDLL\bin\Debug\netcoreapp3.1\ConexaoDLL.deps.json
+C:\Users\Evers\Desktop\RateMe\ConexaoDLL\ConexaoDLL\bin\Debug\netcoreapp3.1\ConexaoDLL.dll
+C:\Users\Evers\Desktop\RateMe\ConexaoDLL\ConexaoDLL\bin\Debug\netcoreapp3.1\ConexaoDLL.pdb
+C:\Users\Evers\Desktop\RateMe\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\ConexaoDLL.csprojAssemblyReference.cache
+C:\Users\Evers\Desktop\RateMe\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\ConexaoDLL.AssemblyInfoInputs.cache
+C:\Users\Evers\Desktop\RateMe\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\ConexaoDLL.AssemblyInfo.cs
+C:\Users\Evers\Desktop\RateMe\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\ConexaoDLL.csproj.CoreCompileInputs.cache
+C:\Users\Evers\Desktop\RateMe\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\ConexaoDLL.dll
+C:\Users\Evers\Desktop\RateMe\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\ConexaoDLL.pdb

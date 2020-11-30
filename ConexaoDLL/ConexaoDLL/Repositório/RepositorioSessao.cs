@@ -14,23 +14,71 @@ namespace ConexaoDLL
             this._Conexao = conexao;
         }
 
-        public int Cadastrar(Sessao sessao)
+        public string Cadastrar(Sessao sessao)
         {
             try
             {
                 using (SqlConnection conexao = _Conexao.AbrirConexao())
                 {
-                    string cmd = $@"INSERT INTO Sessao(Id_Usuario,Chave,DataConexao) VALUES(@Id_Usuario,@Chave,GETDATA()) SELECT SCOPE_IDENTITY()";
+                    string cmd = $@"INSERT INTO Sessao(Id_Usuario,Chave) VALUES(@Id_Usuario,@Chave)";
 
                     using (SqlCommand comando = new SqlCommand(cmd, conexao))
                     {
                         comando.Parameters.Add(new SqlParameter("@Id_Usuario", sessao.Id_Usuario));
                         comando.Parameters.Add(new SqlParameter("@Chave", sessao.Chave));
-                        return (int)comando.ExecuteScalar();
+
+                        comando.ExecuteNonQuery();
+                        return sessao.Chave;
                     }
                 }
             }
             catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public bool Atualizar(Sessao sessao)
+        {
+            try
+            {
+                using (SqlConnection conexao = _Conexao.AbrirConexao())
+                {
+                    string cmd = $@"UPDATE Sessao SET DataConexao = GETDATE() WHERE Id = @Id";
+
+                    using (SqlCommand comando = new SqlCommand(cmd, conexao))
+                    {
+                        comando.Parameters.Add(new SqlParameter("@Id", sessao.Id));
+
+                        comando.ExecuteNonQuery();
+
+                        return true;
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public bool Remover(Sessao sessao)
+        {
+            try
+            {
+                using (SqlConnection conexao = _Conexao.AbrirConexao())
+                {
+                    string cmd = $@"DELETE FROM Sessao WHERE Id = @Id";
+
+                    using (SqlCommand comando = new SqlCommand(cmd, conexao))
+                    {
+                        comando.Parameters.Add(new SqlParameter("@Id", sessao.Id));
+
+                        comando.ExecuteNonQuery();
+
+                        return true;
+                    }
+                }
+            }
+            catch (Exception ex)
             {
                 throw ex;
             }
@@ -53,10 +101,10 @@ namespace ConexaoDLL
                             {
                                 return new Sessao()
                                 {
-                                    Id = (int)Data["Id"],
-                                    Id_Usuario = (int)Data["Id_Usuario"],
-                                    Chave = Data["String"].ToString(),
-                                    DataConexao = (DateTime)Data["DataConexao"]
+                                    Id = int.Parse(Data["Id"].ToString()),
+                                    Id_Usuario = int.Parse(Data["Id_Usuario"].ToString()),
+                                    Chave = Data["Chave"].ToString(),
+                                    DataConexao = (DateTime) Data["DataConexao"]
                                 };
                             }
                         }

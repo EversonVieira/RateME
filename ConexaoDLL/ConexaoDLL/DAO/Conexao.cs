@@ -14,7 +14,7 @@ namespace ConexaoDLL
             this.ConexaoSql = new SqlConnection();
             this.ConexaoSql.ConnectionString = ObterStringDeConexao();
         }
-        public Conexao(string chave)
+        public Conexao(string Chave)
         {
             this.ConexaoSql = new SqlConnection();
             this.ConexaoSql.ConnectionString = ObterStringDeConexao();
@@ -25,7 +25,7 @@ namespace ConexaoDLL
             sqb.InitialCatalog = "RateMe";
             sqb.DataSource = @"EVERSON\EVERSON";
             sqb.UserID = "RateMe";
-            sqb.Password = "Admin";
+            sqb.Password = "Admin123";
             sqb.IntegratedSecurity = false;
             return sqb.ConnectionString;
         }
@@ -38,7 +38,7 @@ namespace ConexaoDLL
                 {
                     throw new Exception("Conexão já está ativa de alguma forma.");
                 }
-
+                this.ConexaoSql.ConnectionString = ObterStringDeConexao();
                 this.ConexaoSql.Open();
                 return this.ConexaoSql;
             }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Evers\\source\\repos\\ConexaoDLL\\ConexaoDLL\\ConexaoDLL.csproj": {}
+    "C:\\Users\\Evers\\Desktop\\RateMe\\ConexaoDLL\\ConexaoDLL\\ConexaoDLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Evers\\source\\repos\\ConexaoDLL\\ConexaoDLL\\ConexaoDLL.csproj": {
+    "C:\\Users\\Evers\\Desktop\\RateMe\\ConexaoDLL\\ConexaoDLL\\ConexaoDLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Evers\\source\\repos\\ConexaoDLL\\ConexaoDLL\\ConexaoDLL.csproj",
+        "projectUniqueName": "C:\\Users\\Evers\\Desktop\\RateMe\\ConexaoDLL\\ConexaoDLL\\ConexaoDLL.csproj",
         "projectName": "ConexaoDLL",
-        "projectPath": "C:\\Users\\Evers\\source\\repos\\ConexaoDLL\\ConexaoDLL\\ConexaoDLL.csproj",
+        "projectPath": "C:\\Users\\Evers\\Desktop\\RateMe\\ConexaoDLL\\ConexaoDLL\\ConexaoDLL.csproj",
         "packagesPath": "C:\\Users\\Evers\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Evers\\source\\repos\\ConexaoDLL\\ConexaoDLL\\obj\\",
+        "outputPath": "C:\\Users\\Evers\\Desktop\\RateMe\\ConexaoDLL\\ConexaoDLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Evers\\AppData\\Roaming\\NuGet\\NuGet.Config",

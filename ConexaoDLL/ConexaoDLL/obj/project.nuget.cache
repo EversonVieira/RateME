@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hwxAHTJkX5A0FA+XpUAuk15Zc1POOquI3GvjPhC6lMLig5q9+AHdnym709oRFSDgEM5H8wGr1fcTvjtt143ZBw==",
+  "dgSpecHash": "cuZBa62cBhxQG1CJrftBARmXRGW+rpwmEH1YTYFuuTTswh6zssZKf+v6e/fO8lmiK7O+nTHoA8JXvZSiw/PUrg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Evers\\source\\repos\\ConexaoDLL\\ConexaoDLL\\ConexaoDLL.csproj",
+  "projectFilePath": "C:\\Users\\Evers\\Desktop\\RateMe\\ConexaoDLL\\ConexaoDLL\\ConexaoDLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Evers\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Evers\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

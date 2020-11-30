@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateME", "RateME\RateME.csproj", "{C03BD449-C48E-4A51-A0F9-B83968CAFF3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RateME", "RateME\RateME.csproj", "{C03BD449-C48E-4A51-A0F9-B83968CAFF3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{F809D47E-43CB-47C7-9ECC-FF8572086E5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConexaoDLL", "..\ConexaoDLL\ConexaoDLL\ConexaoDLL.csproj", "{E0F47C1D-B05B-4546-A79F-8018CEF21A1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{C03BD449-C48E-4A51-A0F9-B83968CAFF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C03BD449-C48E-4A51-A0F9-B83968CAFF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C03BD449-C48E-4A51-A0F9-B83968CAFF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F47C1D-B05B-4546-A79F-8018CEF21A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F47C1D-B05B-4546-A79F-8018CEF21A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F47C1D-B05B-4546-A79F-8018CEF21A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F47C1D-B05B-4546-A79F-8018CEF21A1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0F47C1D-B05B-4546-A79F-8018CEF21A1D} = {F809D47E-43CB-47C7-9ECC-FF8572086E5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C141855-17FA-40A5-B7FF-D327F1037C29}
