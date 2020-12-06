@@ -16,3 +16,12 @@ C:\Users\Evers\Desktop\RateMe\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\Cone
 C:\Users\Evers\Desktop\RateMe\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\ConexaoDLL.csproj.CoreCompileInputs.cache
 C:\Users\Evers\Desktop\RateMe\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\ConexaoDLL.dll
 C:\Users\Evers\Desktop\RateMe\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\ConexaoDLL.pdb
+C:\Users\Evers\Desktop\Faculdade\RateMe\Contexts\netcoreapp3.1\ConexaoDLL.deps.json
+C:\Users\Evers\Desktop\Faculdade\RateMe\Contexts\netcoreapp3.1\ConexaoDLL.dll
+C:\Users\Evers\Desktop\Faculdade\RateMe\Contexts\netcoreapp3.1\ConexaoDLL.pdb
+C:\Users\Evers\Desktop\Faculdade\RateMe\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\ConexaoDLL.csprojAssemblyReference.cache
+C:\Users\Evers\Desktop\Faculdade\RateMe\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\ConexaoDLL.AssemblyInfoInputs.cache
+C:\Users\Evers\Desktop\Faculdade\RateMe\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\ConexaoDLL.AssemblyInfo.cs
+C:\Users\Evers\Desktop\Faculdade\RateMe\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\ConexaoDLL.csproj.CoreCompileInputs.cache
+C:\Users\Evers\Desktop\Faculdade\RateMe\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\ConexaoDLL.dll
+C:\Users\Evers\Desktop\Faculdade\RateMe\ConexaoDLL\ConexaoDLL\obj\Debug\netcoreapp3.1\ConexaoDLL.pdb

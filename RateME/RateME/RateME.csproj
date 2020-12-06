@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -9,8 +9,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="AvaliacaoDLL">
+      <HintPath>..\..\Contexts\netcoreapp3.1\AvaliacaoDLL.dll</HintPath>
+    </Reference>
     <Reference Include="ConexaoDLL">
-      <HintPath>..\..\ConexaoDLL\ConexaoDLL\bin\Debug\netcoreapp3.1\ConexaoDLL.dll</HintPath>
+      <HintPath>..\..\Contexts\netcoreapp3.1\ConexaoDLL.dll</HintPath>
     </Reference>
   </ItemGroup>
 

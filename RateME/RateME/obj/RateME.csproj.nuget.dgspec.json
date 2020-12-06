@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Evers\\Desktop\\RateMe\\RateME\\RateME\\RateME.csproj": {}
+    "C:\\Users\\Evers\\Desktop\\Faculdade\\RateMe\\RateME\\RateME\\RateME.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Evers\\Desktop\\RateMe\\RateME\\RateME\\RateME.csproj": {
+    "C:\\Users\\Evers\\Desktop\\Faculdade\\RateMe\\RateME\\RateME\\RateME.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Evers\\Desktop\\RateMe\\RateME\\RateME\\RateME.csproj",
+        "projectUniqueName": "C:\\Users\\Evers\\Desktop\\Faculdade\\RateMe\\RateME\\RateME\\RateME.csproj",
         "projectName": "RateME",
-        "projectPath": "C:\\Users\\Evers\\Desktop\\RateMe\\RateME\\RateME\\RateME.csproj",
+        "projectPath": "C:\\Users\\Evers\\Desktop\\Faculdade\\RateMe\\RateME\\RateME\\RateME.csproj",
         "packagesPath": "C:\\Users\\Evers\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Evers\\Desktop\\RateMe\\RateME\\RateME\\obj\\",
+        "outputPath": "C:\\Users\\Evers\\Desktop\\Faculdade\\RateMe\\RateME\\RateME\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Evers\\AppData\\Roaming\\NuGet\\NuGet.Config",

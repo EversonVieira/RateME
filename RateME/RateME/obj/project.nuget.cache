@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CW6b+xh0xJSECcZHNTDGyFgU1RWPrZqrXdkd3KyMXZeOXkBNsUtHPAszwktO8YPrlFvfg7lFmTrrdhEtP7zOjQ==",
+  "dgSpecHash": "6BgrlEONdmc4vr22pIza+NaTSNTDpKvCSTwrQmH/UhTDzfDD0vOhp7yXNCxZsqRN1II4inDl7fWHvW8chWiRhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Evers\\Desktop\\RateMe\\RateME\\RateME\\RateME.csproj",
+  "projectFilePath": "C:\\Users\\Evers\\Desktop\\Faculdade\\RateMe\\RateME\\RateME\\RateME.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Evers\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Evers\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

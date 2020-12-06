@@ -9,7 +9,7 @@ using System.Data.SqlClient;
 
 namespace RateME.Controllers
 {
-    [Route("api")]
+    [Route("api/usuario")]
     [ApiController]
     public class ConexaoController : ControllerBase
     {
@@ -21,7 +21,7 @@ namespace RateME.Controllers
             this._RegraSessao = new RegraSessao();
         }
         [HttpPost]
-        [Route("usuario/cadastrar")]
+        [Route("cadastrar")]
         public ActionResult<string> Cadastrar(Usuario usuario)
         {
             int idUsuario = this._RegraUsuario.Cadastrar(usuario);
@@ -29,7 +29,7 @@ namespace RateME.Controllers
             return _RegraSessao.Cadastrar(idUsuario);
         }
         [HttpPost]
-        [Route("usuario/logar")]
+        [Route("logar")]
         public ActionResult<string> Logar(Usuario usuario)
         {
             usuario = _RegraUsuario.Logar(usuario);

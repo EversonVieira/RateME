@@ -96,4 +96,47 @@ INSERT INTO Genero(Descricao) VALUES('Ação')
 INSERT INTO Genero(Descricao) VALUES('Aventura')
 END
 GO
+IF OBJECT_ID('Pontuacao') IS NULL
+CREATE TABLE Pontuacao (
+	Id INT PRIMARY KEY IDENTITY(1,1),
+	Pontuacao INT NOT NULL,
+	Descricao VARCHAR(100) NOT NULL,
+)
+GO
+IF NOT EXISTS(SELECT * FROM Pontuacao)
+BEGIN
+INSERT INTO Pontuacao(Pontuacao,Descricao) VALUES(1,'Muito ruim')
+INSERT INTO Pontuacao(Pontuacao,Descricao) VALUES(2,'Ruim')
+INSERT INTO Pontuacao(Pontuacao,Descricao) VALUES(3,'Neutro')
+INSERT INTO Pontuacao(Pontuacao,Descricao) VALUES(4,'Bom')
+INSERT INTO Pontuacao(Pontuacao,Descricao) VALUES(5,'Muito Bom')
+END
+GO
+IF OBJECT_ID('AvaliacaoCatalogo') IS  NULL
+CREATE TABLE AvaliacaoCatalogo(
+	Id INT PRIMARY KEY IDENTITY(1,1),
+	Id_Usuario INT NOT NULL,
+	Id_Catalogo INT NOT NULL,
+	Pontuacao INT NOT NULL
+)
+IF OBJECT_ID('Comentario') IS NULL
+CREATE TABLE Comentario
+(
+	Id INT PRIMARY KEY IDENTITY(1,1),
+	Id_Usuario INT,
+	Id_Catalogo INT,
+	Id_ComentarioRaiz INT,
+	Texto VARCHAR(1000)
 
+	CONSTRAINT FK_Comentario_Usuario FOREIGN KEY (Id_Usuario) REFERENCES Usuarios(Id),
+	CONSTRAINT FK_Comentario_Catalogo FOREIGN KEY (Id_Catalogo) REFERENCES Catalogo(Id),
+	CONSTRAINT FK_Comentario_ComentarioRaiz FOREIGN KEY (Id_ComentarioRaiz) REFERENCES Comentario(Id)
+)
+IF NOT EXISTS (SELECT * FROM Catalogo)
+BEGIN
+	INSERT INTO Catalogo(Titulo,Descricao) VALUES('Teste1','teste1')
+	INSERT INTO Catalogo(Titulo,Descricao) VALUES('Teste2','teste2')
+	INSERT INTO Catalogo(Titulo,Descricao) VALUES('Teste3','teste3')
+	INSERT INTO Catalogo(Titulo,Descricao) VALUES('Teste4','teste4')
+	INSERT INTO Catalogo(Titulo,Descricao) VALUES('Teste5','teste5')
+END

@@ -1,0 +1,10 @@
+C:\Users\Evers\Desktop\Faculdade\RateMe\Contexts\netcoreapp3.1\AvaliacaoDLL.deps.json
+C:\Users\Evers\Desktop\Faculdade\RateMe\Contexts\netcoreapp3.1\AvaliacaoDLL.dll
+C:\Users\Evers\Desktop\Faculdade\RateMe\Contexts\netcoreapp3.1\AvaliacaoDLL.pdb
+C:\Users\Evers\Desktop\Faculdade\RateMe\AvaliacaoDLL\AvaliacaoDLL\obj\Debug\netcoreapp3.1\AvaliacaoDLL.csprojAssemblyReference.cache
+C:\Users\Evers\Desktop\Faculdade\RateMe\AvaliacaoDLL\AvaliacaoDLL\obj\Debug\netcoreapp3.1\AvaliacaoDLL.AssemblyInfoInputs.cache
+C:\Users\Evers\Desktop\Faculdade\RateMe\AvaliacaoDLL\AvaliacaoDLL\obj\Debug\netcoreapp3.1\AvaliacaoDLL.AssemblyInfo.cs
+C:\Users\Evers\Desktop\Faculdade\RateMe\AvaliacaoDLL\AvaliacaoDLL\obj\Debug\netcoreapp3.1\AvaliacaoDLL.dll
+C:\Users\Evers\Desktop\Faculdade\RateMe\AvaliacaoDLL\AvaliacaoDLL\obj\Debug\netcoreapp3.1\AvaliacaoDLL.pdb
+C:\Users\Evers\Desktop\Faculdade\RateMe\AvaliacaoDLL\AvaliacaoDLL\obj\Debug\netcoreapp3.1\AvaliacaoDLL.csproj.CopyComplete
+C:\Users\Evers\Desktop\Faculdade\RateMe\AvaliacaoDLL\AvaliacaoDLL\obj\Debug\netcoreapp3.1\AvaliacaoDLL.csproj.CoreCompileInputs.cache

@@ -25,6 +25,7 @@
       "RateME/1.0.0": {
         "dependencies": {
           "System.Data.SqlClient": "4.8.2",
+          "AvaliacaoDLL": "1.0.0.0",
           "ConexaoDLL": "1.0.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -394,6 +395,17 @@
         }
       },
       "System.Security.Principal.Windows/4.7.0": {},
+      "AvaliacaoDLL/1.0.0.0": {
+        "runtime": {
+          "AvaliacaoDLL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "AvaliacaoDLL.dll": {}
+        }
+      },
       "ConexaoDLL/1.0.0.0": {
         "runtime": {
           "ConexaoDLL.dll": {
@@ -2167,6 +2179,11 @@
       "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "AvaliacaoDLL/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     },
     "ConexaoDLL/1.0.0.0": {
       "type": "reference",
